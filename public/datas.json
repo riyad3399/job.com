@@ -2,9 +2,11 @@
   {
     "name": "Apple",
     "salary": "US$274.5 billion (2020)",
+    "worker": "Technical Database Engineer",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/100px-Apple_logo_black.svg.png",
     "location": "Cupertino, California, USA",
-    "job_time": "Full-time",
+    "job_time": "Remote",
+    "job_time2": "Full-time",
     "id": 1,
     "job_category": {
       "category_name": "Information Technology",
@@ -15,9 +17,11 @@
   {
     "name": "Microsoft",
     "salary": "US$168.1 billion (2020)",
+    "worker": "Senior Product Designer",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/100px-Microsoft_logo.svg.png",
     "location": "Redmond, Washington, USA",
-    "job_time": "Full-time",
+    "job_time": "Onsite",
+    "job_time2": "Full-time",
     "id": 2,
     "job_category": {
       "category_name": "Arts and Media",
@@ -28,9 +32,11 @@
   {
     "name": "Amazon",
     "salary": "US$386 billion (2020)",
+    "worker": "Software Engineer",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/100px-Amazon_logo.svg.png",
     "location": "Seattle, Washington, USA",
-    "job_time": "Full-time",
+    "job_time": "Remote",
+    "job_time2": "Full-time",
     "id": 3,
     "job_category": {
       "category_name": "Healthcare",
@@ -41,9 +47,11 @@
   {
     "name": "Alphabet (Google)",
     "salary": "US$182.5 billion (2020)",
+    "worker": "Technical Database Engineer",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/100px-Google_%22G%22_Logo.svg.png",
     "location": "Mountain View, California, USA",
-    "job_time": "Full-time",
+    "job_time": "Remote",
+    "job_time2": "Full-time",
     "id": 4,
     "job_category": {
       "category_name": "Marketing & Sales",
@@ -54,9 +62,11 @@
   {
     "name": "Facebook",
     "salary": "US$84.2 billion (2020)",
+    "worker": "Software Engineer",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/100px-Facebook_f_logo_%282019%29.svg.png",
     "location": "Menlo Park, California, USA",
-    "job_time": "Full-time",
+    "job_time": "Onsite",
+    "job_time2": "Full-time",
     "id": 5,
     "job_category": {
       "category_name": "Creative Design",
@@ -65,11 +75,13 @@
     }
   },
   {
-    "name": "Tencent",
+    "name": "Netflix",
     "salary": "US$687 billion (2020)",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Tencent_QQ.svg/100px-Tencent_QQ.svg.png",
+    "worker": "Senior Product Designer",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/320px-Netflix_2015_logo.svg.png",
     "location": "Shenzhen, China",
-    "job_time": "Full-time",
+    "job_time": "Remote",
+    "job_time2": "Full-time",
     "id": 6,
     "job_category": {
       "category_name": "Account & Finance",

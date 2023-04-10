@@ -1,12 +1,14 @@
 import React from "react";
 import Lottie from "lottie-react";
 import animation from "../../assets/animation.json";
-import JobCategory from "../JobCategory/JobCategory";
 import { useLoaderData } from "react-router-dom";
 import Jobs from "../Jobs/Jobs";
+import FeaturedLoader from "../FeaturedLoader/FeaturedLoader";
+
 
 const Home = () => {
   const datas = useLoaderData();
+ 
 
   return (
     <>
@@ -28,18 +30,25 @@ const Home = () => {
         </div>
       </section>
       <div className="mt-20">
-      <h1 className="text-4xl font-bold text-center my-4">Job Category List</h1>
-      <p className="text-center ">
-        Explore thousands of job opportunities with all the information you
-        need. Its your future
-      </p>
+        <h1 className="text-4xl font-bold text-center my-4">
+          Job Category List
+        </h1>
+        <p className="text-center ">
+          Explore thousands of job opportunities with all the information you
+          need. Its your future
+        </p>
       </div>
 
       <Jobs datas={datas} />
+
       <div className="mt-20 mb-8">
         <h1 className="text-4xl font-bold text-center my-4">Featured Jobs</h1>
-        <p className="text-center ">Explore thousands of job opportunities with all the information you need. Its your future</p>
+        <p className="text-center ">
+          Explore thousands of job opportunities with all the information you
+          need. Its your future
+        </p>
       </div>
+      <FeaturedLoader datas={ datas} />
     </>
   );
 };
