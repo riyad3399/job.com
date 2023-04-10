@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Apple",
+    "salary": "US$274.5 billion (2020)",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/100px-Apple_logo_black.svg.png",
+    "location": "Cupertino, California, USA",
+    "job_time": "Full-time",
+    "id": 1,
+    "job_category": {
+      "category_name": "Information Technology",
+      "category_workers": "329 Jobs Available",
+      "icon": "https://cdn-icons-png.flaticon.com/512/653/653511.png?w=740&t=st=1681118340~exp=1681118940~hmac=d2f556bd5822da762c663f758ecf67f1b3f7192288281867524b1891f5f23044"
+    }
+  },
+  {
+    "name": "Microsoft",
+    "salary": "US$168.1 billion (2020)",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/100px-Microsoft_logo.svg.png",
+    "location": "Redmond, Washington, USA",
+    "job_time": "Full-time",
+    "id": 2,
+    "job_category": {
+      "category_name": "Arts and Media",
+      "category_workers": "420+ Jobs Available",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1253/1253590.png?w=740&t=st=1681118277~exp=1681118877~hmac=0adcf8189d1866677fde114386cb526ee06135d3c59be5651348cb32b3805a93"
+    }
+  },
+  {
+    "name": "Amazon",
+    "salary": "US$386 billion (2020)",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/100px-Amazon_logo.svg.png",
+    "location": "Seattle, Washington, USA",
+    "job_time": "Full-time",
+    "id": 3,
+    "job_category": {
+      "category_name": "Healthcare",
+      "category_workers": "500+ Jobs Available",
+      "icon": "https://cdn-icons-png.flaticon.com/512/872/872123.png?w=740&t=st=1681118234~exp=1681118834~hmac=172b82abafd20a1ed3851165bf5024e52bc3115d8c594b161061e8e55141c6ec"
+    }
+  },
+  {
+    "name": "Alphabet (Google)",
+    "salary": "US$182.5 billion (2020)",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/100px-Google_%22G%22_Logo.svg.png",
+    "location": "Mountain View, California, USA",
+    "job_time": "Full-time",
+    "id": 4,
+    "job_category": {
+      "category_name": "Marketing & Sales",
+      "category_workers": "150 Jobs Available",
+      "icon": "https://cdn-icons-png.flaticon.com/512/164/164429.png?w=740&t=st=1681118194~exp=1681118794~hmac=3decfb7dd80e20a39e11232153d44bb0508c0724fd5394ed06296e5597d5cf8d"
+    }
+  },
+  {
+    "name": "Facebook",
+    "salary": "US$84.2 billion (2020)",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/100px-Facebook_f_logo_%282019%29.svg.png",
+    "location": "Menlo Park, California, USA",
+    "job_time": "Full-time",
+    "id": 5,
+    "job_category": {
+      "category_name": "Creative Design",
+      "category_workers": "128 Jobs Available",
+      "icon": "https://cdn-icons-png.flaticon.com/512/645/645984.png?w=740&t=st=1681118145~exp=1681118745~hmac=2c8ae1b91fdaea23442aaf3fd529463d7f22162b70a6bcbaf3cc118472ec1cab"
+    }
+  },
+  {
+    "name": "Tencent",
+    "salary": "US$687 billion (2020)",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Tencent_QQ.svg/100px-Tencent_QQ.svg.png",
+    "location": "Shenzhen, China",
+    "job_time": "Full-time",
+    "id": 6,
+    "job_category": {
+      "category_name": "Account & Finance",
+      "category_workers": "300 Jobs Available",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1255/1255985.png?w=740&t=st=1681118024~exp=1681118624~hmac=775818affe06c4bc4cf192bcfc6810750eaf47dc5b2c09fce79524c3c9f02248"
+    }
+  }
+]
