@@ -3,7 +3,7 @@ import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
 const FeaturedShow = ({ data }) => {
-  const { job_time, job_time2, location, logo, name, salary, worker } = data;
+  const { job_time, job_time2, location, logo, name, salary, worker, id } = data;
   
   
  
@@ -26,7 +26,7 @@ const FeaturedShow = ({ data }) => {
           <p className="font-medium"> Salary: {salary}</p>
         </div>
       </div>
-      <Link to="/job-details"  data={data}>
+      <Link to={`/job/${id}`}>
         <button className="btn-primary">View Details</button>
     </Link>
     </div>

@@ -55,7 +55,7 @@ const Home = () => {
           need. Its your future
         </p>
       </div>
-      <FeaturedLoader datas={datas} handelShowAllJob={ handelShowAllJob} />
+      <FeaturedLoader datas={datas} />
     </>
   );
 };

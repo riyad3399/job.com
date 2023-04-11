@@ -7,7 +7,7 @@
     "location": "Cupertino, California, USA",
     "job_time": "Remote",
     "job_time2": "Full-time",
-    "id": 1,
+    "id": "1",
     "job_category": {
       "category_name": "Information Technology",
       "category_workers": "329 Jobs Available",
@@ -29,7 +29,7 @@
     "location": "Redmond, Washington, USA",
     "job_time": "Onsite",
     "job_time2": "Full-time",
-    "id": 2,
+    "id": "2",
     "job_category": {
       "category_name": "Arts and Media",
       "category_workers": "420+ Jobs Available",
@@ -50,7 +50,7 @@
     "location": "Seattle, Washington, USA",
     "job_time": "Remote",
     "job_time2": "Full-time",
-    "id": 3,
+    "id": "3",
     "job_category": {
       "category_name": "Healthcare",
       "category_workers": "500+ Jobs Available",
@@ -71,7 +71,7 @@
     "location": "Mountain View, California, USA",
     "job_time": "Remote",
     "job_time2": "Full-time",
-    "id": 4,
+    "id": "4",
     "job_category": {
       "category_name": "Marketing & Sales",
       "category_workers": "150 Jobs Available",
@@ -92,7 +92,7 @@
     "location": "Menlo Park, California, USA",
     "job_time": "Onsite",
     "job_time2": "Full-time",
-    "id": 5,
+    "id": "5",
     "job_category": {
       "category_name": "Creative Design",
       "category_workers": "128 Jobs Available",
@@ -113,7 +113,7 @@
     "location": "Shenzhen, China",
     "job_time": "Remote",
     "job_time2": "Full-time",
-    "id": 6,
+    "id": "6",
     "job_category": {
       "category_name": "Account & Finance",
       "category_workers": "300 Jobs Available",
