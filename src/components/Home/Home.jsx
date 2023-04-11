@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Lottie from "lottie-react";
 import animation from "../../assets/animation.json";
 import { useLoaderData } from "react-router-dom";
@@ -8,7 +8,14 @@ import FeaturedLoader from "../FeaturedLoader/FeaturedLoader";
 
 const Home = () => {
   const datas = useLoaderData();
- 
+  // const [items, setItems] = useState([])
+  const handelShowAllJob = () => {
+    if (datas.length > 4) {
+      const sliceData = datas.slice(0, 4)
+      console.log(sliceData);
+    }
+    
+  }
 
   return (
     <>
@@ -48,7 +55,7 @@ const Home = () => {
           need. Its your future
         </p>
       </div>
-      <FeaturedLoader datas={ datas} />
+      <FeaturedLoader datas={datas} handelShowAllJob={ handelShowAllJob} />
     </>
   );
 };
