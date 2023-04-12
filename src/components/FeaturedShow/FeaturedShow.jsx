@@ -1,11 +1,9 @@
-import React from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
 const FeaturedShow = ({ data }) => {
   const { job_time, job_time2, location, logo, name, salary, worker, id } = data;
-  
-  
+
  
   return (
     <div className="border border-spacing-96 p-8 bg-gray-100 rounded-md shadow-xl space-y-2">
