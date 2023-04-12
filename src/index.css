@@ -4,5 +4,5 @@
 
 
 .btn-primary{
-    @apply  font-medium transition duration-200 rounded-md shadow-md  md:mb-0  px-4 py-2 md:px-2 md:py-2 m-2 text-lg border-transparent border-2  text-gray-700 hover:bg-blue-500 bg-blue-300 hover:text-white
+    @apply  font-medium transition duration-200 rounded-md shadow-md  md:mb-0  px-4 py-2 md:px-2 md:py-2 m-2 text-lg border-transparent border-2  text-gray-700 hover:bg-blue-500 bg-blue-300 hover:text-white hover:scale-95
   }

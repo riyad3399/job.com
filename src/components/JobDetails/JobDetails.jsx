@@ -86,7 +86,7 @@ const JobDetails = () => {
             <p>Address: {location}</p>
           </div>
           <Link to='/appliedJob'>
-            <button onClick={() => addToDb(id)} className="w-3/4 bg-cyan-500 rounded-md duration-300 hover:bg-cyan-300 py-2 font-semibold mt-4">
+            <button onClick={() => addToDb(id)} className="w-3/4 bg-cyan-500 rounded-md duration-300 hover:bg-cyan-300 py-2 font-semibold mt-4 hover:scale-95">
             Apply Now
             </button>
           </Link>
