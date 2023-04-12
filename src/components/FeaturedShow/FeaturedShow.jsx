@@ -6,7 +6,7 @@ const FeaturedShow = ({ data }) => {
 
  
   return (
-    <div className="border border-spacing-96 p-8 bg-gray-100 rounded-md shadow-xl space-y-2 hover:-translate-y-3 duration-300 hover:bg-cyan-200 hover:scale-95">
+    <div className="border border-spacing-96 p-8 bg-gray-100 rounded-md shadow-xl space-y-2 hover:-translate-y-3 duration-300 hover:bg-cyan-200 hover:scale-95 hover:border-blue-500">
       <img className="w-28 h-28" src={logo} alt="logo" />
       <h2 className="text-xl font-bold">{worker}</h2>
       <p className="font-semibold text-gray-500 text-lg">{name}</p>

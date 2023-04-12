@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AppliedJobShow = ({ job }) => {
   const { logo, name, worker, job_time2, job_time, location, salary, id } = job;
   return (
-    <div className="flex items-center border border-blue-200 space-y-5 container w-4/5 mx-auto px-6 rounded-md hover:bg-gray-200  shadow-lg hover:translate-y-3 hover:scale-95 duration-300">
+    <div className="flex items-center border border-blue-200 space-y-5 container w-4/5 mx-auto px-6 rounded-md hover:bg-gray-200  shadow-lg hover:translate-y-3 hover:scale-95 duration-300 hover:border-blue-500">
       <img className="mr-8 w-28 h-28 " src={logo} alt="" />
       <div className="flex">
         <div className="flex items-center relative">

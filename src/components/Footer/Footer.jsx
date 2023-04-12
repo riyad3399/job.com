@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-black opacity-80 mb-8 p-24 text-center">
+    <footer className="bg-black opacity-80 mb-2 p-24 text-center rounded-sm">
       <div className=" text-white text-center">
         <div className="flex justify-center">
           <HashtagIcon className="h-14 w-14 text-white mb-5" />
